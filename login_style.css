@@ -37,7 +37,7 @@ body{
 
 /*----- 三层div -----*/
 .lay_inner{
-	width: 880px;
+	width: 980px;
 	margin: 0 auto;
 		/*border: 1px solid red;*/
 }
@@ -64,6 +64,10 @@ body{
 		/*border: 1px solid yellow;		*/
 }
 /*----- 内容 -----*/
+.login_head_img{
+	width: 360px;
+	height: 120px;
+}
 .login_title{
 	margin: 46px 0 0 0;
 	font-size: 20px;
