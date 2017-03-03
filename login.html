@@ -1,20 +1,60 @@
 <!DOCTYPE html>
 <html lang="en">
     <head>
-        <meta charset="utf-8">
-        <title>WebTalk</title>
+        <meta charset="utf_8">
+        <title>WebTalk 登录</title>
+        <link rel="stylesheet" type="text/css" href="login_style.css">
     </head>
-    <body style="font-family:Microsoft YaHei;">
-    <h1>登&nbsp录</h1>
-    <form action="ok.html" method="post" accept-charset="utf-8">
-        <img src="user.png"><input type="text" name="username" value="用户名"><br>
-        <img src="code.png"><input type="password" name="password"><br>
-        <input type="submit"  value="登录"><br>
-    </form> 
-    <h2>没有WebTalk账户吗？</h2>
-    <form action="ok.html" method="post" accept-charset="utf-8">
-        <input type="submit" value="建立账户"><br>
-    </form> 
+    <body>
+        <div id="wrap" class="lay_wrap">          
+            <div class="lay_main">
+                <div class="lay_inner">
+                    <div class="main_head">
+                        <img class="login_head_img" src="qzone-login-logo-dark.32.png">
+                    </div>
+                    <div class="main_wrap">
+                        <p class="login_title">账号密码登录</p>
+                        <form class="login_form" action="ok.html" method="post" accept-charset="utf_8">
+                        <div class="input_outer">
+                            <img class="login_img" src="user.png">
+                            <input class="login_input" type="text" name="username" value="用户名"><br>  
+                        </div>
+                        <div class="input_outer">
+                            <img class="code login_img" src="code.png">
+<!--                             <label for="password">密码</label>
+ -->                            <input class="login_input" type="password" name="password" ><!-- value="密码" -->
+                        </div>
+                        <div class="input_outer">
+                            <input class="submit" type="submit"  value="登&nbsp录"><br>
+                        </div>
+                        </form> 
+                        <div class="login_bottom">
+                            <a href="#">忘记密码？</a>
+                            <span class="dotted">|</span>
+                            <a href="#">注册新账户</a>
+                            <span class="dotted">|</span>
+                            <a href="#">意见反馈</a>
+                        </div>
+<!--                         <form action="ok.html" method="post" accept-charset="utf_8">
+                            <input type="submit" value="建立账户"><br>
+                        </form> 
+ -->                    </div>
+                </div>
+            </div>
+
+            <div class="lay_foot">
+                <div class="lay_inner">
+                    <div class="foot_copyright">
+                        <p class="copyright_cn">版权所有&copy;</p>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+<!--         <div id="bg" class="background">
+            <img class="background_img" src="background.jpg">
+        </div>
+ --> 
 
  
     </body>

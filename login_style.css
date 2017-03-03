@@ -1,0 +1,125 @@
+body{
+	margin: 0;
+	padding: 0;
+	font-family: Microsoft YaHei;
+	font-size: 12px;
+	background-image: url(background.jpg);
+}
+/*----- 一层div -----*/
+.wrap{
+	height: 100%;
+	min-height: 600px;
+}
+/*.background{
+	width: 100%;
+	height: 100%;
+	border: 1px solid red;
+	background-color: pink;
+}*/
+/*----- 二层div -----*/
+.lay_main{
+	width: 100%;
+	position: absolute;
+	top: 10%;
+		/*border: 1px solid blue;*/
+}
+.lay_foot{
+	width: 100%;
+	position: absolute;
+	bottom: 5%;
+	/*border: 1px solid green;*/
+}
+/*.background_img{
+	position: absolute;
+	top: 0;
+	left: 0;
+}*/
+
+/*----- 三层div -----*/
+.lay_inner{
+	width: 880px;
+	margin: 0 auto;
+		/*border: 1px solid red;*/
+}
+/*----- 四层div -----*/
+.main_wrap{
+	width: 420px;
+	height: 316px;
+	border: 2px solid #EEEEEE;
+	border-radius: 4px;
+	background-color: #FFFFFF;
+	float: right;
+/*	position: relative;
+*/}
+.foot_copyright{
+		/*border: 1px solid yellow;		*/
+	text-align: center;
+	color: #FFFFFF;
+	font-size: 12px;
+}
+/*----- 五层div -----*/
+.login_form{
+	width: 272px;
+	margin: 35px auto 0;
+		/*border: 1px solid yellow;		*/
+}
+/*----- 内容 -----*/
+.login_title{
+	margin: 46px 0 0 0;
+	font-size: 20px;
+	text-align: center;
+		/*border: 1px solid yellow;		*/
+}
+
+.submit,.input_outer{
+	width: 272px;
+	height: 40px;
+	margin: 0 0 16px;
+	padding: 0;
+		/*border: 1px solid red;*/
+}
+.submit{
+	width: 276px;
+	border: none;
+	background-color: #86CE2F;
+	text-align: center;
+	color: #FFFFFF;
+	font-size: 17px;	
+	font-family: Microsoft YaHei;
+}
+
+.login_img{
+	height: 36px;
+	margin: 2px 0 0 0;
+	float: left;
+		/*border: 1px solid blue;*/
+}
+.code{
+	margin: 0 6px;
+	width: 26px;
+}
+.login_input{
+	width: 230px;
+	height: 38px;
+	float: right;
+	padding: 0;
+	border: 1px solid #D6D6D6;
+	border-radius: 2px;
+	color: #AAAAAA;
+	font-size: 14px;
+	font-family: Microsoft YaHei;
+	text-indent: 10px;
+}
+.login_bottom{
+	float: right;
+	margin: 10px 20px;
+		/*border: 1px solid blue;*/
+}
+.login_bottom a:-webkit-any-link{
+	text-decoration: none;
+	color: #666666;
+}
+.login_bottom span{
+	color: #bfbfbf;
+	margin: 0 5px;
+}
