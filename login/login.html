@@ -1,37 +1,42 @@
 <!DOCTYPE html>
 <html lang="en">
     <head>
-        <meta charset="utf_8">
-        <title>WebTalk 登录</title>
-        <link rel="stylesheet" type="text/css" href="login_style.css">
+        <meta charset="utf-8">
+        <title>WebTalk-无限精彩，即刻分享</title>
+        <link rel="shortcut icon" href="images/favicon.ico"/>
+        <link rel="bookmark" href="images/favicon.ico"/>
+        <link rel="stylesheet" type="text/css" href="styles/login_style.css">
     </head>
     <body>
         <div id="wrap" class="lay_wrap">          
             <div class="lay_main">
                 <div class="lay_inner">
                     <div class="main_head">
-                        <img class="login_head_img" src="webtalk_logo.png">
+                        <img class="login_head_img" src="images/logo_webtalk.png">
                     </div>
                     <div class="main_wrap">
                         <p class="login_title">账号密码登录</p>
                         <form class="login_form" action="ok.html" method="post" accept-charset="utf_8">
                         <div class="input_outer">
-                            <img class="login_img" src="user.png">
-                            <input class="login_input" type="text" name="username" value="用户名"><br>  
+                            <img class="login_img" src="images/user.png">
+                            <input class="login_input" type="text" name="username" value="登录邮箱"><br>  
                         </div>
                         <div class="input_outer">
-                            <img class="code login_img" src="code.png">
+                            <img class="code login_img" src="images/code.png">
 <!--                             <label for="password">密码</label>
- -->                            <input class="login_input" type="password" name="password" ><!-- value="密码" -->
+ -->                            <input class="login_input" type="password" name="password" placeholder="密码">
+                        </div>
+                        <div class="input_outer pw">
+                            <input class="remember_pw" type="checkbox" name="remember_pw">
+                            <span class="remember_pw">记住密码</span>
+                            <a class="forget_pw" href="#">忘记密码？</a>
                         </div>
                         <div class="input_outer">
                             <input class="submit" type="submit"  value="登&nbsp录"><br>
                         </div>
                         </form> 
                         <div class="login_bottom">
-                            <a href="#">忘记密码？</a>
-                            <span class="dotted">|</span>
-                            <a href="#">注册新账户</a>
+                            <a href="register.html">注册新账户</a>
                             <span class="dotted">|</span>
                             <a href="#">意见反馈</a>
                         </div>
